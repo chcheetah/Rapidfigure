@@ -17,6 +17,12 @@ Planned Features
 - A common feed ( consisting of random posts from user's followers)
 
 
+Screenshots of GUI (Under construction)
+
+Login Page
+
+![image](https://user-images.githubusercontent.com/79366050/205432899-b7b1286f-3ed1-4840-8cc6-d1110ef802f3.png)
+
 
 <b> Current status (Changelog)</b>
 <br>
