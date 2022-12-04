@@ -4,10 +4,20 @@ class baseapi():
     def __init__(api):
         api.key = "0000"
         api.link = "www.example.com"
-    def fetchlogin(api):
+    def fetchlogin(api, userid = "", search=""):
+        if(userid == "" or search==""):
+            return {"text":"unable to fetch content"}
         fp = "Data/Login.csv"
-        d = p.read_csv(fp, sep=",")
-        return d
+        d = p.read_csv(fp,sep=",")
+        d = d.set_index(search)
+        d = d.T.to_dict()
+        o = d.keys()
+        if(userid not in o):
+            return {"present":False}
+        # must set return dictionary value to True for present key
+        e = d[userid]
+        e["present"] = True
+        return e
     def fetchpost(api,postid=""):
         if(postid == ""):
             return {"text":"unable to fetch content"}
