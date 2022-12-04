@@ -25,11 +25,13 @@ Login Page
 Profile Page
 ![image](https://user-images.githubusercontent.com/79366050/205476363-9518fd80-ffa5-40b3-82cc-fb07d24ac419.png)
 
-Further development:
+<b> Further development: </b>
 
-DM : On the way
-Commenting : On the way
-Posting : On the way
+<br>
+- DM : On the way
+- Commenting : On the way
+- Posting : On the way
+</br>
 
 <b> Current status (Changelog)</b>
 <br>
