@@ -22,7 +22,9 @@ Login Page
 
 ![image](https://user-images.githubusercontent.com/79366050/205432899-b7b1286f-3ed1-4840-8cc6-d1110ef802f3.png)
 
+
 Profile Page
+
 ![image](https://user-images.githubusercontent.com/79366050/205476363-9518fd80-ffa5-40b3-82cc-fb07d24ac419.png)
 
 <b> Further development: </b>
